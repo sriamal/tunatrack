@@ -3,10 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TunaTrack Login</title
-  <link rel="stylesheet" href="login.css"/>
+  <title>TunaTrack Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #00A9FF, #CDF5FD);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo {
+      margin-top: 40px;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+    .login-card {
+      background: #ffffff;
+      padding: 30px 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+    }
+
+    .login-card h2 {
+      color: #00A9FF;
+      margin-bottom: 24px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .input-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .input-group input {
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      padding: 8px 4px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .input-group input:focus {
+      outline: none;
+      border-bottom-color: #00A9FF;
+    }
+
+    .input-group input::placeholder {
+      color: #aaa;
+      font-style: italic;
+    }
+
+    .forget-password {
+      position: absolute;
+      bottom: -22px;
+      right: 0;
+      font-size: 0.85rem;
+    }
+
+    .forget-password a {
+      text-decoration: none;
+      color: #00A9FF;
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00A9FF;
+      color: white;
+      border: none;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-button:hover {
+      background-color: #007ACC;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    @media screen and (max-height: 600px) {
+      footer {
+        margin-top: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
+
   <div class="logo">
     <img src="tunatrack.png" alt="TunaTrack Logo" />
   </div>
