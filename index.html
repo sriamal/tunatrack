@@ -123,6 +123,24 @@
     }
   </style>
 </head>
+  <script>
+  const validUsername = "tuna";
+  const validPassword = "tuna123";
+
+  function login(event) {
+    event.preventDefault();
+
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    if (username === validUsername && password === validPassword) {
+      // Redirect ke dashboard
+      window.location.href = "dashboard.html";
+    } else {
+      alert("Invalid Username or Password");
+    }
+  }
+</script>
 <body>
 
   <div class="logo">
@@ -131,7 +149,7 @@
 
   <div class="login-card">
     <h2>Login</h2>
-    <form>
+    <form onsubmit="login(event)">
       <div class="input-group">
         <label for="username">Username</label>
         <input type="text" id="username" placeholder="Enter your username" required />
