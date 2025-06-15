@@ -124,3 +124,130 @@ body {
 .card.wide {
   width: 100%;
 }
+
+.card-income {
+  padding: 1.2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.card-income .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 128, 0, 0.35);
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.card-income .card-header h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.month-dropdown {
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.description {
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+  color: #333;
+}
+
+.divider {
+  margin: 1rem 0;
+}
+
+.income-section .income-row {
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+
+.fish-label {
+  width: 20%;
+  padding: 0.6rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.fish-label .grades {
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.fish-label.bluefin { background: #1750AC; }
+.fish-label.yellowfin { background: #FFD301; color: black; }
+.fish-label.bigeye { background: #003396; }
+.fish-label.albacore { background: #ADD8E5; color: black; }
+
+.fish-chart {
+  width: 80%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.bar {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.grade-a { background: #9C0101; }
+.grade-b { background: #FF0000; }
+.grade-c { background: #F10C45; }
+.grade-d { background: #FADADD; color: black; }
+
+.total-income {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.toggle-switch {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.toggle-switch .tab {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.toggle-switch .tab.active {
+  background: rgba(0, 128, 0, 0.3);
+}
+
+.view-all {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #007BFF;
+}
