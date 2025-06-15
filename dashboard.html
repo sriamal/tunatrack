@@ -2,11 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TunaTrack Dashboard</title>
-  <link rel="stylesheet" href="" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dashboard.css" />
 </head>
 <body>
-  <h2> Dashboard TunaTrack</h2>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Data Entry</h2>
+      <ul class="menu">
+        <li>Sale</li>
+        <li>Sail</li>
+        <li>Tuna Price Update</li>
+        <li>PSE</li>
+        <li>New Ship</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <img src="tunatrack.png" alt="TunaTrack Logo" class="logo">
+      </header>
+
+      <!-- Tab Navigation -->
+      <nav class="tab-nav">
+        <div class="tab active">KM. OET</div>
+      </nav>
+
+      <!-- Dashboard Cards -->
+      <section class="dashboard">
+        <div class="card">Card 1<br><span>No data yet</span></div>
+        <div class="card">Card 2<br><span>No data yet</span></div>
+        <div class="card">Card 3<br><span>No data yet</span></div>
+        <div class="card">Card 4<br><span>No data yet</span></div>
+        <div class="card wide">Card 5<br><span>No data yet</span></div>
+      </section>
+    </div>
+  </div>
 </body>
 </html>
