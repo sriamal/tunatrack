@@ -1,119 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TunaTrack Dashboard</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="dashboard.css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>TunaTrack Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="dashboard.css" />
 </head>
 <body>
-  <div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <h2>Data Entry</h2>
-      <ul class="menu">
-        <li>Sale</li>
-        <li>Sail</li>
-        <li>Tuna Price Update</li>
-        <li>PSE</li>
-        <li>New Ship</li>
-      </ul>
-    </aside>
+	<div class="container">
+		<!-- Sidebar -->
+		<aside class="sidebar">
+			<h2>Data Entry</h2>
+			<ul class="menu">
+				<li>Sale</li>
+				<li>Sail</li>
+				<li>Tuna Price Update</li>
+				<li>PSE</li>
+				<li>New Ship</li>
+			</ul>
+		</aside>
 
-    <!-- Main Content -->
-    <div class="main-content">
-      <!-- Header -->
-      <header class="header">
-        <img src="tunatrack.png" alt="TunaTrack Logo" class="logo">
-      </header>
+		<!-- Main Content -->
+		<div class="main-content">
+			<!-- Header -->
+			<header class="header">
+				<img src="tunatrack.png" alt="TunaTrack Logo" class="logo">
+			</header>
 
-      <!-- Tab Navigation -->
-      <nav class="tab-nav">
-        <div class="tab active">KM. OET</div>
-      </nav>
+			<!-- Tab Navigation -->
+			<nav class="tab-nav">
+				<div class="tab active">KM. OET</div>
+			</nav>
 
-      <!-- Dashboard Cards -->
-      <div class="card-container">
-        <div class="card">
-  <div class="scrollable-card-content">
-    <!-- Card 1 - Income Report -->
-<div class="card card-income" id="card1">
-  <div class="card-header">
-    <h3>Income Report</h3>
-    <select class="month-dropdown">
-      <option>June 2025</option>
-      <option>May 2025</option>
-      <option>April 2025</option>
-    </select>
-  </div>
-  <p class="description">
-    <em>Only showing for current month. Select another month from the right panel to view past reports 
-      or click "View All" below to see the full record.</em>
-  </p>
-  <hr class="divider" />
+			<!-- Dashboard Cards -->
+			<div class="card-container">
+				<div class="card">
+					<div class="scrollable-card-content">
+						<!-- Card 1 - Income Report -->
+						<div class="card card-income" id="card1">
+							<div class="card-header">
+								<h3>Income Report</h3>
+								<select class="month-dropdown">
+									<option>June 2025</option>
+									<option>May 2025</option>
+									<option>April 2025</option>
+								</select>
+							</div>
+							<p class="description">
+								<em>Only showing for current month. Select another month from the right panel to view past reports 
+								or click "View All" below to see the full record.</em>
+							</p>
+							<hr class="divider" />
 
-  <!-- Fish Income Section -->
-  <div class="income-section">
-    <!-- Repeat for each type of fish -->
-    <div class="income-row">
-      <div class="fish-label bluefin">Bluefin<br /><span class="grades">A<br />B<br />C<br />D</span></div>
-      <div class="fish-chart">
-        <div class="bar grade-a" style="width: 80%">Rp3.200.000</div>
-        <div class="bar grade-b" style="width: 60%">Rp2.400.000</div>
-        <div class="bar grade-c" style="width: 40%">Rp1.600.000</div>
-        <div class="bar grade-d" style="width: 20%">Rp800.000</div>
-        <div class="total-income">Total: Rp8.000.000</div>
-      </div>
-    </div>
+							<!-- Fish Income Section -->
+							<div class="income-section">
+								<!-- Repeat for each type of fish -->
+								<div class="income-row">
+									<div class="fish-label bluefin">Bluefin<br /><span class="grades">A<br />B<br />C<br />D</span></div>
+									<div class="fish-chart">
+										<div class="bar grade-a" style="width: 80%">Rp3.200.000</div>
+										<div class="bar grade-b" style="width: 60%">Rp2.400.000</div>
+										<div class="bar grade-c" style="width: 40%">Rp1.600.000</div>
+										<div class="bar grade-d" style="width: 20%">Rp800.000</div>
+										<div class="total-income">Total: Rp8.000.000</div>
+									</div>
+								</div>
 
-    <div class="income-row">
-      <div class="fish-label yellowfin">Yellowfin<br /><span class="grades">A<br />B<br />C<br />D</span></div>
-      <div class="fish-chart">
-        <div class="bar grade-a" style="width: 70%">Rp2.800.000</div>
-        <div class="bar grade-b" style="width: 55%">Rp2.200.000</div>
-        <div class="bar grade-c" style="width: 35%">Rp1.400.000</div>
-        <div class="bar grade-d" style="width: 15%">Rp600.000</div>
-        <div class="total-income">Total: Rp7.000.000</div>
-      </div>
-    </div>
+								<div class="income-row">
+									<div class="fish-label yellowfin">Yellowfin<br /><span class="grades">A<br />B<br />C<br />D</span></div>
+									<div class="fish-chart">
+										<div class="bar grade-a" style="width: 70%">Rp2.800.000</div>
+										<div class="bar grade-b" style="width: 55%">Rp2.200.000</div>
+										<div class="bar grade-c" style="width: 35%">Rp1.400.000</div>
+										<div class="bar grade-d" style="width: 15%">Rp600.000</div>
+										<div class="total-income">Total: Rp7.000.000</div>
+									</div>
+								</div>
 
-    <div class="income-row">
-      <div class="fish-label bigeye">Big Eye<br /><span class="grades">A<br />B<br />C<br />D</span></div>
-      <div class="fish-chart">
-        <div class="bar grade-a" style="width: 60%">Rp2.400.000</div>
-        <div class="bar grade-b" style="width: 50%">Rp2.000.000</div>
-        <div class="bar grade-c" style="width: 30%">Rp1.200.000</div>
-        <div class="bar grade-d" style="width: 10%">Rp400.000</div>
-        <div class="total-income">Total: Rp6.000.000</div>
-      </div>
-    </div>
+								<div class="income-row">
+									<div class="fish-label bigeye">Big Eye<br /><span class="grades">A<br />B<br />C<br />D</span></div>
+									<div class="fish-chart">
+										<div class="bar grade-a" style="width: 60%">Rp2.400.000</div>
+										<div class="bar grade-b" style="width: 50%">Rp2.000.000</div>
+										<div class="bar grade-c" style="width: 30%">Rp1.200.000</div>
+										<div class="bar grade-d" style="width: 10%">Rp400.000</div>
+										<div class="total-income">Total: Rp6.000.000</div>
+									</div>
+								</div>
 
-    <div class="income-row">
-      <div class="fish-label albacore">Albakora<br /><span class="grades">A<br />B<br />C<br />D</span></div>
-      <div class="fish-chart">
-        <div class="bar grade-a" style="width: 90%">Rp3.600.000</div>
-        <div class="bar grade-b" style="width: 65%">Rp2.600.000</div>
-        <div class="bar grade-c" style="width: 45%">Rp1.800.000</div>
-        <div class="bar grade-d" style="width: 25%">Rp1.000.000</div>
-        <div class="total-income">Total: Rp9.000.000</div>
-      </div>
-    </div>
-  </div>
+								<div class="income-row">
+									<div class="fish-label albacore">Albakora<br /><span class="grades">A<br />B<br />C<br />D</span></div>
+									<div class="fish-chart">
+										<div class="bar grade-a" style="width: 90%">Rp3.600.000</div>
+										<div class="bar grade-b" style="width: 65%">Rp2.600.000</div>
+										<div class="bar grade-c" style="width: 45%">Rp1.800.000</div>
+										<div class="bar grade-d" style="width: 25%">Rp1.000.000</div>
+										<div class="total-income">Total: Rp9.000.000</div>
+									</div>
+								</div>
+							</div>
 
-  <!-- Footer Section -->
-  <div class="card-footer">
-    <div class="toggle-switch">
-      <div class="tab active">Income</div>
-      <div class="tab">Expenses</div>
-    </div>
-    <a href="#" class="view-all">View All</a>
-  </div>
-</div>
-  </div>
-        </div>
-      </div>
-    </div>
-  </div>
+							<!-- Footer Section -->
+							<div class="card-footer">
+								<div class="toggle-switch">
+									<div class="tab active">Income</div>
+									<div class="tab">Expenses</div>
+								</div>
+								<a href="#" class="view-all">View All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
